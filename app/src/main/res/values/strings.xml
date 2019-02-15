@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mangatusewu</string>
+
+    <string-array name="ArrayKesempatan">
+        <item>Ngewe</item>
+        <item>akusiap</item>
+        <item>krastikreb</item>
+        <item>nematoda</item>
+    </string-array>
+    <string-array name="ArrayDana">
+        <item>Petrik</item>
+        <item>Spongebob</item>
+        <item>Ice Bear</item>
+        <item>Grizz</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
