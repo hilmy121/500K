@@ -17,26 +17,27 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/cvQuis"
-        android:layout_width="150dp"
-        android:layout_height="210dp"
-        android:layout_gravity="end"
-        android:layout_alignParentTop="true"
+        android:layout_width="178dp"
+        android:layout_height="250dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end"
         android:layout_marginLeft="30dp"
-        app:cardCornerRadius="10dp"
-        app:cardBackgroundColor="@android:color/transparent">
+        android:layout_marginTop="60dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="10dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@mipmap/kuis"/>
+            android:src="@mipmap/kuis" />
 
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
         android:id="@+id/cvDana"
-        android:layout_width="150dp"
-        android:layout_height="210dp"
+        android:layout_width="178dp"
+        android:layout_height="250dp"
         android:layout_gravity="end"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -55,8 +56,8 @@
     <android.support.v7.widget.CardView
         app:cardBackgroundColor="@android:color/transparent"
         android:id="@+id/cvKesempatan"
-        android:layout_width="150dp"
-        android:layout_height="210dp"
+        android:layout_width="178dp"
+        android:layout_height="250dp"
         android:layout_gravity="start"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -74,8 +75,8 @@
     <android.support.v7.widget.CardView
         app:cardBackgroundColor="@android:color/transparent"
         android:id="@+id/cvWawasan"
-        android:layout_width="150dp"
-        android:layout_height="210dp"
+        android:layout_width="178dp"
+        android:layout_height="250dp"
         android:layout_gravity="end"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
