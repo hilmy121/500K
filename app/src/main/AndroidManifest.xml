@@ -8,7 +8,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".rumah"></activity>
+        <activity android:name=".mkolintang"></activity>
+        <activity android:name=".rumah" />
         <activity android:name=".suku" />
         <activity android:name=".tari" />
         <activity android:name=".Alat" />
