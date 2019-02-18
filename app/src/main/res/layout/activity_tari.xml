@@ -9,7 +9,7 @@
         android:layout_width="490dp"
         android:layout_height="855dp"
         android:background="@mipmap/bg_tari"
-        android:scaleType="center">
+        android:scaleType="center"/>
 
     <RelativeLayout
         android:layout_width="356dp"
