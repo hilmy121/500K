@@ -14,25 +14,25 @@ public class KesempatanActivity extends AppCompatActivity {
     String[] Kesempatan;
     private ArrayList<Integer> ind_tag;
     CardView cvRandomKesempatan;
-    TextView tvResultKesempatan;
-    TextView tv_cvRandomKesempatan;
-    int i=0;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kesempatan);
-        cvRandomKesempatan = findViewById(R.id.cvRandomKesempatan);
-        tv_cvRandomKesempatan = findViewById(R.id.tv_cvRandomKesempatan);
-        tvResultKesempatan = findViewById(R.id.tvResultKesempatan);
-        initData();
-        cvRandomKesempatan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(i<Kesempatan.length) {
-                    tv_cvRandomKesempatan.setText("Ambil");
-                    tvResultKesempatan.setText(Kesempatan[ind_tag.get(i)]);
-                    i++;
-                }
+                TextView tvResultKesempatan;
+                TextView tv_cvRandomKesempatan;
+                int i=0;
+                @Override
+                protected void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.activity_kesempatan);
+                    cvRandomKesempatan = findViewById(R.id.cvRandomKesempatan);
+                    tv_cvRandomKesempatan = findViewById(R.id.tv_cvRandomKesempatan);
+                    tvResultKesempatan = findViewById(R.id.tvResultKesempatan);
+                    initData();
+                    cvRandomKesempatan.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            if(i<Kesempatan.length) {
+                                tv_cvRandomKesempatan.setText("Ambil");
+                                tvResultKesempatan.setText(Kesempatan[ind_tag.get(i)]);
+                                i++;
+                            }
 
                 if(i==Kesempatan.length){
                     tv_cvRandomKesempatan.setText("Kocok");
