@@ -8,7 +8,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mkolintang"></activity>
+        <activity android:name=".splashok"></activity>
+        <activity android:name=".mgadang" />
+        <activity android:name=".msalaso" />
+        <activity android:name=".mkebaya" />
+        <activity android:name=".mwawangko" />
+        <activity android:name=".msunda" />
+        <activity android:name=".mmadura" />
+        <activity android:name=".mbaduy" />
+        <activity android:name=".mjawa" />
+        <activity android:name=".minai" />
+        <activity android:name=".mtopeng" />
+        <activity android:name=".mbarong" />
+        <activity android:name=".mguel" />
+        <activity android:name=".msaluang" />
+        <activity android:name=".mgambus" />
+        <activity android:name=".maramba" />
+        <activity android:name=".mkolintang" />
         <activity android:name=".rumah" />
         <activity android:name=".suku" />
         <activity android:name=".tari" />
@@ -20,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity android:name=".MainMenuActivity" />
         <activity android:name=".KesempatanActivity" />
         <activity android:name=".DanaActivity" />

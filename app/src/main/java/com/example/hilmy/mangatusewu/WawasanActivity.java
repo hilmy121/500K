@@ -1,5 +1,6 @@
 package com.example.hilmy.mangatusewu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
@@ -19,26 +20,34 @@ public class WawasanActivity extends AppCompatActivity {
         cvWawasan1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent goToX = new Intent(WawasanActivity.this,Alat.class);
+                startActivity(goToX);
+               WawasanActivity.this.onDestroy();
             }
         });
 
         cvWawasan2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent goToX = new Intent(WawasanActivity.this,tari.class);
+                startActivity(goToX);
+                WawasanActivity.this.onDestroy();
             }
         });
         cvWawasan3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent goToX = new Intent(WawasanActivity.this,suku.class);
+                startActivity(goToX);
+                WawasanActivity.this.onDestroy();
             }
         });
         cvWawasan4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent goToX = new Intent(WawasanActivity.this,rumah.class);
+                startActivity(goToX);
+                WawasanActivity.this.onDestroy();
             }
         });
     }

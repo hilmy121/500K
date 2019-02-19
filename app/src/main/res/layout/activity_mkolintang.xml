@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/m_bgalat"
-    tools:context=".mkolintang">
+    tools:context=".mkolintang"> 
 
     <ImageView
         android:layout_width="391dp"
-        android:layout_height="289dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="10dp"
-        android:background="@mipmap/m_kolintang" />
+    android:layout_height="289dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:background="@mipmap/m_kolintang" />
 
     <TextView
         android:layout_width="300dp"
@@ -29,5 +29,15 @@
         android:shadowDx="2dp"
         android:shadowDy="2dp"
         android:shadowRadius="3dp"/>
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="20dp"
+        android:text="Kolintang adalah salah satu alat musik tradisional masyarakat Minahasa di Sulawesi Utara. Alat musik ini terbuat dari kayu khusus yang disusun dan dimainkan dengan cara dipukul. Sekilas Kolintang ini hampir sama dengan alat musik Gambang dari Jawa, namun yang membedakan adalah nada yang dihasilkan lebih lengkap dan cara memainkannya sedikit berbeda."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp" />
 
 </RelativeLayout>
