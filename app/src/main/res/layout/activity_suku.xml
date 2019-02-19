@@ -17,23 +17,27 @@
         android:layout_marginTop="180dp"
         >
         <ImageButton
+            android:id="@+id/jawa"
             android:layout_width="176dp"
             android:hapticFeedbackEnabled="true"
             android:layout_height="233dp"
             android:background="@mipmap/jawa" />
         <ImageButton
+            android:id="@+id/baduy"
             android:layout_width="222dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
             android:layout_marginLeft="176dp"
             android:background="@mipmap/baudy" />
         <ImageButton
+            android:id="@+id/madura"
             android:layout_width="176dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"
             android:layout_marginTop="222dp"
             android:background="@mipmap/madura" />
         <ImageButton
+            android:id="@+id/sunda"
             android:layout_width="222dp"
             android:layout_height="233dp"
             android:hapticFeedbackEnabled="true"

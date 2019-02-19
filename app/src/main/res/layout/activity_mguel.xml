@@ -17,12 +17,12 @@
     <TextView
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="90dp"
         android:layout_marginTop="310dp"
-        android:text="Tarian Guel"
+        android:text="@string/tarian_guel"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:fontFamily="sans-serif-medium"
         android:shadowColor="@color/text_shadow"
         android:shadowDx="2dp"
@@ -37,14 +37,14 @@
         android:scrollbarSize="1dp">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tari Guel adalah salah satu tarian tradisional yang berasal dari budaya masyarakat Gayo di Aceh. Tarian ini cenderung berbeda dengan tarian-tarian tradisional Aceh kebanyakan, terutama dari segi geraknya. Tari Guel memiliki gerakan yang sangat khas dan penuh makna, bahkan terkesan bernuansa magis. Sehingga tak jarang membuat para penonton seakan terhipnotis dan terbawa suasana saat menyaksikannya. Tarian guel merupakan salah satu tarian tradisional yang cukup terkenal di Aceh, khususnya di kalangan masyarakat Gayo. Tarian ini biasanya sering ditampilkan di acara-acara adat maupun budaya yang diselenggarakan di sana."
+                android:text="@string/guel"
                 android:textColor="@color/colorPrimaryDark"
-                android:textSize="17dp" />
+                android:textSize="17sp" />
         </RelativeLayout>
     </ScrollView>
 

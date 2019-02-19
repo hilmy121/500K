@@ -60,4 +60,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guel">Tari Guel adalah salah satu tarian tradisional yang berasal dari budaya masyarakat Gayo di Aceh. Tarian ini cenderung berbeda dengan tarian-tarian tradisional Aceh kebanyakan, terutama dari segi geraknya. Tari Guel memiliki gerakan yang sangat khas dan penuh makna, bahkan terkesan bernuansa magis. Sehingga tak jarang membuat para penonton seakan terhipnotis dan terbawa suasana saat menyaksikannya. Tarian guel merupakan salah satu tarian tradisional yang cukup terkenal di Aceh, khususnya di kalangan masyarakat Gayo. Tarian ini biasanya sering ditampilkan di acara-acara adat maupun budaya yang diselenggarakan di sana.</string>
+    <string name="tarian_guel">Tarian Guel</string>
+    <string name="Aramba">Alat Musik Aramba (Arumba) merupakan bagian dari alat musik tradisional Sumatera Utara (Sumut), tepatnya dari kabupaten Nias. Alat ini dipakai oleh warga setempat dalam acara kesenian daerah, seperti penikahan. Dimainkan oleh satu orang, alat musik Aramba termasuk jenis musik alat musik ideofon. Bagi warga Nias, alat musik ini diyakini mempunyai nilai keramat alias mistis.</string>
+    <string name="alat_musik_aramba">Alat Musik Aramba</string>
 </resources>
