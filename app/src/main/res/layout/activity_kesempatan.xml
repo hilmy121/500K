@@ -12,14 +12,13 @@
         android:layout_width="360dp"
         android:layout_marginTop="56dp"
         android:layout_height="670dp"
-        android:scrollbarStyle="outsideOverlay">
+        android:scrollbarStyle="outsideOverlay"/>
         <TextView
         android:id="@+id/tvResultKesempatan"
         android:layout_width="360dp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:fontFamily="monospace" />
-    </ScrollView>
     <TextView
         android:id="@+id/tv_cvRandomKesempatan"
         android:layout_width="360dp"
